@@ -24,3 +24,21 @@ function loadRepo() {
 }
 
 
+
+
+
+
+// function loadRepo(url, callback) {
+// let output = "";
+// const xhttp = new XMLHttpRequest();
+// xhttp.onreadystatechange = function(){
+//  if (this.readyState == 4 && this.status ==200){
+//    JSON.parse(this.responseText).map( repo => output += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`);
+//    document.getElementById("repositories").innerHTML = output;
+// }
+// };
+// xhttp.open("GET", "https://api.github.com/users/andrewpacheco/repos");
+// xhttp.send();
+// }
+
+
